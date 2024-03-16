@@ -22,13 +22,14 @@ Creaet instruction file. ex) `instruction.yaml`
     Rpelace other H1 headers with H2 headers.
 ```
 
-Run this tool.
+Get OpenAI API key and set it to environment variable.
+Then run this tool.
 
 ```console
-npm run build
-cd <your project root>
-node <path to this tool>/dist/index.js <path to instruction file>
+export OPENAI_API_KEY=your_api_key
+deno run --allow-env --allow-read --allow-write --allow-net https://deno.land/x/auto_refactor/main.ts ./instruction.yaml
 ```
 
-> [!WARNING] This tool overwrites your files. Please use version control system
+> [!WARNING]
+> This tool overwrites your files. Please use version control system
 > and backup your files before running this tool.
