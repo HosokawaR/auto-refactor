@@ -1,7 +1,5 @@
-import z from "zod";
-import { parse } from "yaml";
-
-import * as fs from "fs";
+import { z } from "https://deno.land/x/zod/mod.ts";
+import { parse } from "https://deno.land/std@0.207.0/yaml/mod.ts";
 
 const instructionFileSchema = z.array(
   z.object({
@@ -19,7 +17,7 @@ export type Instructions = {
 
 export const loadAndValidateInstructions = (path: string): Instructions => {
   const instructions = instructionFileSchema.parse(
-    parse(fs.readFileSync(path, "utf-8")),
+    parse(Deno.readTextFileSync(path)),
   );
 
   return instructions.map((instruction) => {

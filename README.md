@@ -25,9 +25,7 @@ Creaet instruction file. ex) `instruction.yaml`
 Run this tool.
 
 ```console
-npm run build
-cd <your project root>
-node <path to this tool>/dist/index.js <path to instruction file>
+[WIP]
 ```
 
 > [!WARNING] This tool overwrites your files. Please use version control system
