@@ -2,7 +2,7 @@
 
 This tool refactors your code automatically by using OpenAI API.
 
-https://github.com/HosokawaR/auto-refactor/assets/45098934/631bf995-612e-45a2-b9d7-d86bacb02a9c
+![auto_refactor_demo](https://github.com/HosokawaR/auto-refactor/assets/45098934/ae75630e-f14d-4d13-b13c-ee5996bf0c19)
 
 ## Usage
 
