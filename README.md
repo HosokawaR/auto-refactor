@@ -2,6 +2,8 @@
 
 This tool refactors your code automatically by using OpenAI API.
 
+https://github.com/HosokawaR/auto-refactor/assets/45098934/631bf995-612e-45a2-b9d7-d86bacb02a9c
+
 ## Usage
 
 Creaet instruction file. ex) `instruction.yaml`
